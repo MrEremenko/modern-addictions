@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card/Card";
 
-function App() {
+import Search from "./components/Search/Search";
+import React, { useState } from "react";
+
+//addictions --have these alphabetical please, and same name as json file
+const alarmClock = require('./addictions/alarmClock.json');
+const gaming = require('./addictions/gaming.json');
+const phoneBed = require('./addictions/phoneBed.json');
+
+const App = () => {
+  const [text, setText] = useState('');
+  
+  //also alphabetical
+  const addictions = [
+    alarmClock,
+    gaming,
+    phoneBed
+  ]
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Search text={text} setText={setText} />
+      { addictions && addictions.length > 0 &&
+        addictions.map(addiction => {
+          if(addiction.title.toLowerCase().includes(text.toLowerCase())) 
+            return <Card {...addiction} />
+        })
+      }
     </div>
   );
 }

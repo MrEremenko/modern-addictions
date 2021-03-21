@@ -1,0 +1,20 @@
+{
+  "title": "Using Phone before/after bed",
+  "author": "Illarion Eremenko",
+  "categories": ["teens"],
+  "keywords": ["sleep", "phone", "bed"],
+  "color": "#A096E0",
+  "summary": "Look, looking at your phone causes your mind to be alert, and that in turn makes your brain very active; it disrupts your sleeping pattern",
+  "ifYouStop": [
+    "You will feel better in the morning",
+    ""
+  ],
+  "ifYouContinue": [
+    "You will get more stressed",
+    "Can experience insomnia"
+  ],
+  "sources": [{
+    "link": "https://health.clevelandclinic.org/put-the-phone-away-3-reasons-why-looking-at-it-before-bed-is-a-bad-habit/",
+    "shortOptionalDescription": ""
+  }]
+}

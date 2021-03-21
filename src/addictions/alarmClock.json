@@ -1,0 +1,20 @@
+{
+  "title": "Alarm Clocks",
+  "author": "Illarion Eremenko",
+  "categories": [],
+  "keywords": ["sleep"],
+  "color": "#F8EC9E",
+  "summary": "Yeah; I know you hate alarm clocks; there's a reason. They stress you out. Just to the arithmetic and wake up naturally.",
+  "ifYouStop": [""],
+  "ifYouContinue": ["Will become much more stressed"],
+  "sources": [
+    {
+      "link": "https://www.verywellhealth.com/should-i-use-an-alarm-clock-3014949",
+      "shortOptionalDescription": ""
+    },
+    {
+      "link": "https://abcnews.go.com/GMA/true-false-alarm-clock-affect-health/story?id=14730219",
+      "shortOptionalDescription": ""
+    }
+  ]
+}

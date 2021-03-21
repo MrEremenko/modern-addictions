@@ -1,0 +1,14 @@
+{
+  "title": "Too much gaming",
+  "author": "Illarion Eremenko",
+  "categories": [],
+  "keywords": ["gaming", "gamers", "games"],
+  "color": "#add8e6",
+  "summary": "Ok, you got this far, might as well hear me out. MOST gaming is fine, it just becomes a problem when there's too much of it and it takes over your life, hindering you from chasing your dreams.",
+  "ifYouStop": [],
+  "ifYouContinue": [],
+  "sources": [{
+    "link": "https://www.health.harvard.edu/blog/the-health-effects-of-too-much-gaming-2020122221645",
+    "shortOptionalDescription": ""
+  }]
+}
