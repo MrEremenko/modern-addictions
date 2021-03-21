@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/modern-addictions/static/js/main.d66b3bc8.chunk.js",
-    "main.js.map": "/modern-addictions/static/js/main.d66b3bc8.chunk.js.map",
-    "runtime-main.js": "/modern-addictions/static/js/runtime-main.ebf6e12b.js",
-    "runtime-main.js.map": "/modern-addictions/static/js/runtime-main.ebf6e12b.js.map",
+    "main.js": "/modern-addictions/static/js/main.c88195dd.chunk.js",
+    "main.js.map": "/modern-addictions/static/js/main.c88195dd.chunk.js.map",
+    "runtime-main.js": "/modern-addictions/static/js/runtime-main.4df82929.js",
+    "runtime-main.js.map": "/modern-addictions/static/js/runtime-main.4df82929.js.map",
     "static/js/2.84db3f45.chunk.js": "/modern-addictions/static/js/2.84db3f45.chunk.js",
     "static/js/2.84db3f45.chunk.js.map": "/modern-addictions/static/js/2.84db3f45.chunk.js.map",
-    "static/js/3.53a2eead.chunk.js": "/modern-addictions/static/js/3.53a2eead.chunk.js",
-    "static/js/3.53a2eead.chunk.js.map": "/modern-addictions/static/js/3.53a2eead.chunk.js.map",
+    "static/js/3.de87c915.chunk.js": "/modern-addictions/static/js/3.de87c915.chunk.js",
+    "static/js/3.de87c915.chunk.js.map": "/modern-addictions/static/js/3.de87c915.chunk.js.map",
     "index.html": "/modern-addictions/index.html",
     "static/js/2.84db3f45.chunk.js.LICENSE.txt": "/modern-addictions/static/js/2.84db3f45.chunk.js.LICENSE.txt",
     "static/media/search.8e509b43.svg": "/modern-addictions/static/media/search.8e509b43.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ebf6e12b.js",
+    "static/js/runtime-main.4df82929.js",
     "static/js/2.84db3f45.chunk.js",
-    "static/js/main.d66b3bc8.chunk.js"
+    "static/js/main.c88195dd.chunk.js"
   ]
 }
