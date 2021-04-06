@@ -1,0 +1,13 @@
+{
+  "title": "Youtube Overload",
+  "categories": ["modern"],
+  "keywords": [],
+  "color": "#F8EC9E",
+  "summary": "As soon as you watch several videos, Youtube knows what to recommend you next, and you are playing right into their game, looking and clicking at the flashy thumbnails like an addict. I'm not trying to be mean here, but you have to see how Youtube's goal is for you to stay on there as long as possible watching ads. They are relying on your animal instincts to continue watching, and what happens to you? Well, assume your time is worth $15/hour, realistically $45/hour as you get more experienced, and say you spend 2 hours a day on Youtube. That's 14 hours a week, 60 hours a month, 720 hours a year, or $20,000 lost because you decided to watch 2 hours of youtube a day.",
+  "ifYouStop": [],
+  "ifYouContinue": [],
+  "sources": [{
+    "link": "https://medium.com/dataseries/how-youtube-is-addictive-259d5c575883",
+    "shortOptionalDescription": ""
+  }]
+}

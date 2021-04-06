@@ -7,6 +7,7 @@ import React, { useState } from "react";
 const alarmClock = require('./addictions/alarmClock.json');
 const gaming = require('./addictions/gaming.json');
 const phoneBed = require('./addictions/phoneBed.json');
+const youtube = require('./addictions/youtube.json');
 
 const App = () => {
   const [text, setText] = useState('');
@@ -15,7 +16,8 @@ const App = () => {
   const addictions = [
     alarmClock,
     gaming,
-    phoneBed
+    phoneBed,
+    youtube
   ]
 
   return (

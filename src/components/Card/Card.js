@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const Card = ({ title, author, summary, color, sources, keywords, categories }) => {
+const Card = ({ title, summary, color, sources, keywords, categories }) => {
 
   const [open, setOpen] = useState(false);
   const [borderRadius, setBorderRadius] = useState('10px')
@@ -14,7 +14,7 @@ const Card = ({ title, author, summary, color, sources, keywords, categories }) 
     <div style={{ display: "flex", margin: "10px", borderRadius: borderRadius, borderStyle: "solid" }} onClick={clicked}>
       <div style={{ display: "flex", flex: "2 2 0", flexDirection: "column", padding: "5px",
           borderTopLeftRadius: borderRadius, borderBottomLeftRadius: borderRadius, backgroundColor: color }}>
-        <div style={{ fontSize: "30px" }}>{title}</div>
+        <div style={{ fontSize: "30px" }}><u>{title}</u></div>
         <div style={{ fontSize: "12px", display: "flex" }}>
           Keywords:
           {
